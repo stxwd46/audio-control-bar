@@ -1,0 +1,80 @@
+body {
+    font-family: "Microsoft YaHei";
+    background-color: #eeeeee;
+}
+
+#audio-control {
+    width: 800px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+
+#button-play {
+    float: left;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #2ac1f9;
+}
+
+#button-play #button-start {
+    width: 0;
+    height: 0;
+    top: 15px;
+    left: 17px;
+    position: absolute;
+    border-top: 10px solid transparent;
+    border-left: 20px solid #fff;
+    border-bottom: 10px solid transparent;
+}
+
+#button-play #button-pause {
+    display: none;
+    top: 13px;
+    left: 16px;
+    position: absolute;
+}
+
+#button-pause .pause{
+    width: 5px;
+    height: 25px;
+    display: inline-block;
+    background-color: #fff;
+}
+
+#control-bar {
+    width: 400px;
+    height: 50px;
+    background-color: #2ac1f9;
+    position: relative;
+    float: left;
+}
+
+#control-bar .control-time {
+    top: 13px;
+    width: 50px;
+    height: 25px;
+    color: #fff;
+    position: absolute;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    display: inline-block;
+}
+
+#control-bar #time-start {
+    left: 5px;
+}
+
+#control-bar #time-all {
+    right: 5px;
+}
+
+
